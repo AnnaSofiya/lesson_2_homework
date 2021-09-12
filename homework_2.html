@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home work 2</title>
+</head>
+
+<body>
+	<header>
+		<div title="Всплывающее меню">
+			<h1>Создание сайта GitHub Pages</h1>
+		</div>
+		<p>Вы можете создать сайт GitHub Pages в новом или существующем репозитории. <br>GitHub Pages доступен в
+			публичных
+			репозиториях с GitHub Free и GitHub Free для организаций, а также в публичных и частных репозиториях с
+			GitHub Pro, GitHub Team, GitHub Enterprise Cloud и GitHub Enterprise Server. Для получения дополнительной
+			информации см. <a target="blank"
+				href="https://docs.github.com/en/get-started/learning-about-github/githubs-products">«Продукты
+				GitHub»</a>
+			.</p>
+	</header>
+	<mein>
+		<h2>В этой статье</h2>
+		<ul>
+			<li><a href="#p1">Создание репозитория для вашего сайта</a></li>
+			<li><a href="#p2">Создание вашего сайта</a></li>
+			<li><a href="#p3">Следующие шаги</a></li>
+			<li><a href="#p4">Дальнейшее чтение</a></li>
+		</ul>
+		<br>
+		<p><span>Примечание.</span> Владельцы организаций могут ограничить публикацию сайтов GitHub Pages из репозиториев,
+			принадлежащих организации. Дополнительные сведения см. В разделе <a target="blank"
+				href="https://docs.github.com/en/organizations/managing-organization-settings/managing-the-publication-of-github-pages-sites-for-your-organization">«Управление
+				публикацией сайтов GitHub
+				Pages »</a>.</p>
+		<h2 id="p1">Создание репозитория для вашего сайта</h2>
+		<p>Если ваш сайт является независимым проектом, вы можете создать новый репозиторий для хранения исходного кода
+			вашего сайта. Если ваш сайт связан с существующим проектом, вы можете добавить исходный код в репозиторий этого
+			проекта, в /docsпапку в ветке по умолчанию или в другой ветке. Например, если вы создаете сайт для публикации
+			документации для проекта, который уже находится на GitHub, вы можете захотеть сохранить исходный код сайта в
+			том же репозитории, что и проект.
+		<p>Если учетная запись, которой принадлежит репозиторий, использует GitHub
+			Free или GitHub Free для организаций,
+			репозиторий должен быть общедоступным.</p>
+		<p>Если вы хотите создать сайт в существующем репозитории, перейдите к
+			разделу <a target="blank"
+				href="https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site">«
+				Создание вашего сайта »</a>. </p> <br>
+		<ol>
+			<li>В правом верхнем углу любой страницы используйте + раскрывающееся меню и выберите « Новый репозиторий».
+				<br><img src="img/repo-create.png" width="192" height="201" alt="1">
+			</li>
+			<li>Используйте раскрывающееся меню « Владелец» и выберите учетную запись, которой вы хотите владеть
+				репозиторием. <br><img src="img/create-repository-owner.png" width="683" height="334" alt="2"></li>
+			<li>Введите имя для вашего репозитория и необязательное описание. Если вы создаете сайт пользователя или
+				организации, ваш репозиторий должен называться user.github.ioили organization.github.io. Если название
+				вашего пользователя или организации содержит прописные буквы, вы должны писать строчные буквы. Для
+				получения дополнительной информации см...<a target="blank"
+					href="https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites">
+					« О страницах GitHub »</a><br><img src="img/create-repository-name-pages.png" width="1305" height="382"
+					alt="3"></li>
+			<li>Выберите видимость репозитория. Для получения дополнительной информации см.<a target="blank"
+					href="https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories#about-repository-visibility">«О
+					репозиториях »</a>. <img src="img/create-repository-public-private.png" width="750" height="302" alt="4">
+			</li>
+			<li>Выберите Инициализировать этот репозиторий с помощью README . <img src="img/initialize-with-readme.png"
+					width="1388" height="684" alt="5"></li>
+			<li>Щелкните Создать репозиторий .<img src="img/create-repository-button.png" width="1032" height="342"
+					alt="6">
+			</li>
+		</ol>
+		<h2 id="p2"><mark>Создание вашего сайта</mark></h2>
+		<p>Прежде чем вы сможете создать свой сайт, у вас должен быть репозиторий для вашего сайта на GitHub. Если вы не
+			создаете свой сайт в существующем репозитории, см. <a target="blank"
+				href="https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-a-repository-for-your-site">«
+				Создание репозитория для вашего сайта »</a>
+			.</p>
+		<ul>
+			<li>На GitHub перейдите в репозиторий вашего сайта.</li><br>
+			<li>Решите, какой источник публикации вы хотите использовать. Для получения дополнительной информации см. <a
+					href="https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites">«
+					О страницах GitHub ».</a></li><br>
+			<li>Если выбранный вами источник публикации уже существует, перейдите к источнику публикации. Если выбранный
+				вами источник публикации не существует, создайте источник публикации.</li><br>
+			<li>В корне источника публикации создайте новый файл с именем index.md, содержащий контент, который вы хотите
+				отображать на главной странице вашего сайта.</li><br>
+			<li>Настройте источник публикации. Дополнительные сведения см. В разделе .<a target="blank"
+					href="https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#choosing-a-publishing-source">«
+					Настройка источника публикации для
+					сайта GitHub Pages »</a></li><br>
+			<li>Под именем вашего репозитория нажмите Настройки . <img src="img/repo-actions-settings.png" width="1552"
+					height="276" alt="7"></li>
+			<li>На левой боковой панели щелкните Страницы .<img src="img/pages-tab.png" width="622" height="506" alt="8">
+			</li>
+			<li>При желании, если вы публикуете сайт проекта из частного или внутреннего репозитория, принадлежащего
+				организации, использующей GitHub Enterprise Cloud, выберите видимость для своего сайта. В разделе «Страницы
+				GitHub» выберите раскрывающееся меню видимости страниц GitHub , затем щелкните видимость. Для получения
+				дополнительной информации см. <a target="blank"
+					href="https://docs.github.com/en/pages/getting-started-with-github-pages/changing-the-visibility-of-your-github-pages-site">
+					« Изменение видимости вашего сайта GitHub Pages »</a>.<img src="img/public-or-private-visibility.png"
+					width="502" height="293" alt="9"></li>
+
+			<li>Чтобы просмотреть опубликованный сайт, в разделе «Страницы GitHub» щелкните URL-адрес своего сайта.<img
+					src="img/click-pages-url-to-preview.png" width="1413" height="380" alt="10"></li>
+		</ul>
+		<p>Примечание. После отправки изменений на GitHub публикация изменений на вашем сайте может занять до 20 минут.
+			Если через час изменения не отображаются в браузере, см. <a target="blank"
+				href="https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-jekyll-build-errors-for-github-pages-sites">«
+				Об ошибках сборки Jekyll для сайтов GitHub Pages ».</a><br>
+		<p><mark>Примечание . Если ваш сайт не был опубликован автоматически, убедитесь, что кто-то с правами
+				администратора и подтвержденным адресом электронной почты отправил в источник публикации.</mark></p>
+		<h3 id="p3">Следующие шаги</h3>
+		<p>Вы можете добавить на свой сайт больше страниц, создав больше новых файлов. Каждый файл будет доступен на вашем
+			сайте в той же структуре каталогов, что и ваш источник публикации. Например, если источником публикации для
+			сайта вашего проекта является gh-pagesветвь, и вы создаете новый файл с именем /about/contact-us.mdв
+			gh-pagesветке, файл будет доступен по адресу https://user.github.io/repository/about/contact-us.html.</p>
+		<p>Вы также можете добавить тему, чтобы настроить внешний вид вашего сайта. Дополнительные сведения см. В разделе
+			<a target="blank"
+				href="https://docs.github.com/en/pages/getting-started-with-github-pages/adding-a-theme-to-your-github-pages-site-with-the-theme-chooser">«
+				Добавление темы на сайт GitHub Pages с помощью средства выбора темы ».</a>
+
+		</p>
+		<p>Чтобы еще больше настроить свой сайт, вы можете использовать Jekyll, генератор статических сайтов со встроенной
+			поддержкой GitHub Pages. Для получения дополнительной информации см. <a target="blank"
+				href="https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll">
+				« О страницах GitHub и Jekyll ».</a></p>
+		<h3 id="p4">Дальнейшее чтение</h3>
+		<ul>
+			<li><a target="blank"
+					href="https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/troubleshooting-jekyll-build-errors-for-github-pages-sites">«
+					Устранение ошибок сборки Jekyll для сайтов GitHub Pages »</a></li>
+			<li><a target="blank"
+					href="https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository">«
+					Создание и удаление веток в вашем репозитории »</a></li>
+			<li><a target="blank"
+					href="https://docs.github.com/en/repositories/working-with-files/managing-files/creating-new-files">«
+					Создание новых файлов »</a></li>
+		</ul>
+	</mein>
+	<footer>
+		<h5>Домашняя работа № 2. <br> 11.09.2021</h5>
+
+	</footer>
+</body>
+
+</html>
